@@ -1,7 +1,12 @@
 import './App.css';
+import ProfileList from './components/ProfileList';
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <ProfileList />
+    </div>
+  );
 }
 
 export default App;
